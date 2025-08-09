@@ -1,0 +1,27 @@
+{
+  "valid": [
+    "user@example.com",
+    "first.last@domain.co.uk",
+    "name+alias@sub.domain.info",
+    "user123@gmail.com",
+    "very.long.email.address.123456789@really.long.domain.name.com",
+    "dash-user@domain-with-dash.com",
+    "unique@museum.travel",
+    "email@192.168.1.1",
+    "numbers123@domain456.org",
+    "underscore_allowed@example.com"
+  ],
+  "invalid": [
+    "user@",
+    "@domain.com",
+    "email@-domain.com",
+    "email@domain..com",
+    "invalid character$@domain.com",
+    ".start.with.dot@domain.com",
+    "end.with.dot.@domain.com",
+    "spaces in@domain.com",
+    "missing@tld.",
+    "email@domain@extra.com"
+  ]
+}
+

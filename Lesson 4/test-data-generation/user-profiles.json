@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Anna Petrova",
+    "email": "anna.petrova@gmail.com",
+    "birthdate": "1992-07-14",
+    "phone": "+44 7624 123456",
+    "country": "UK",
+    "accountStatus": "Active"
+  },
+  {
+    "name": "Miguel Rodriguez",
+    "email": "m.rodriguez@outlook.com",
+    "birthdate": "1988-03-22",
+    "phone": "+34 611 987 654",
+    "country": "Spain",
+    "accountStatus": "Pending"
+  },
+  {
+    "name": "Sarah Johnson",
+    "email": "sjohnson83@yahoo.com",
+    "birthdate": "1983-11-30",
+    "phone": "+1 415 555 0123",
+    "country": "USA",
+    "accountStatus": "Active"
+  },
+  {
+    "name": "Hans Weber",
+    "email": "hans.weber@gmx.de",
+    "birthdate": "1995-09-08",
+    "phone": "+49 176 12345678",
+    "country": "Germany",
+    "accountStatus": "Inactive"
+  },
+  {
+    "name": "Yuki Tanaka",
+    "email": "yukitanaka@hotmail.co.jp",
+    "birthdate": "1990-12-05",
+    "phone": "+81 80 1234 5678",
+    "country": "Japan",
+    "accountStatus": "Active"
+  }
+]
+
