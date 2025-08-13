@@ -10,9 +10,9 @@ import java.time.Duration;
 public class HomePage {
     private WebDriver driver;
 
-    private By fromInput = By.xpath("//input[contains(@placeholder,'port_from')]");
-    private By toInput = By.xpath("//input[contains(@placeholder,'port_to')]");
-    private By dateInput = By.xpath("//input[contains(@placeholder,'Dates')]");
+    private By fromInput = By.xpath("//input[contains(@name,'port_from')]");
+    private By toInput = By.xpath("//input[contains(@name,'port_to')]");
+    private By dateInput = By.xpath("//input[contains(@name,'dates')]");
     private By searchButton = By.xpath("//button[contains(.,'SEARCH FLIGHT')]");
     private By acceptCookiesButton = By.xpath("//button[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'accept') or contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'cookie') or contains(.,'Accept All')]");
 
@@ -35,18 +35,26 @@ public class HomePage {
 
 
     public void enterFrom(String from) {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        WebElement fromElem = wait.until(ExpectedConditions.visibilityOfElementLocated(fromInput));
-        fromElem.clear();
-        fromElem.sendKeys(from);
+    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+    WebElement fromElem = wait.until(ExpectedConditions.visibilityOfElementLocated(fromInput));
+    fromElem.clear();
+    fromElem.sendKeys(from);
+    // Wait for dropdown and select airport option matching 'from'
+    By airportOption = By.xpath("//div[contains(@class,'_port') and contains(@class,'_loc') and @data-airport='" + from + "']");
+    WebElement optionElem = wait.until(ExpectedConditions.elementToBeClickable(airportOption));
+    optionElem.click();
     }
 
 
     public void enterTo(String to) {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        WebElement toElem = wait.until(ExpectedConditions.visibilityOfElementLocated(toInput));
-        toElem.clear();
-        toElem.sendKeys(to);
+    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+    WebElement toElem = wait.until(ExpectedConditions.visibilityOfElementLocated(toInput));
+    toElem.clear();
+    toElem.sendKeys(to);
+    // Wait for dropdown and select airport option matching 'to'
+    By airportOption = By.xpath("//div[contains(@class,'_port') and contains(@class,'_loc') and @data-airport='" + to + "']");
+    WebElement optionElem = wait.until(ExpectedConditions.elementToBeClickable(airportOption));
+    optionElem.click();
     }
 
 
@@ -54,7 +62,28 @@ public class HomePage {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         WebElement dateElem = wait.until(ExpectedConditions.elementToBeClickable(dateInput));
         dateElem.click();
-        // Implement date selection logic as needed
+
+        // Parse dates string, e.g. "15 Aug - 22 Sep"
+        String[] parts = dates.split("-");
+        if (parts.length == 2) {
+            String departure = parts[0].trim();
+            String arrival = parts[1].trim();
+
+            // Extract day numbers (assumes format like "15 Aug" or "22 Sep")
+            String departureDay = departure.split(" ")[0];
+            String arrivalDay = arrival.split(" ")[0];
+
+            // Select departure date
+            By departureDate = By.xpath("//div[contains(@class,'day-item') and text()='" + departureDay + "']");
+            WebElement depElem = wait.until(ExpectedConditions.elementToBeClickable(departureDate));
+            depElem.click();
+
+            // Select arrival date
+            By arrivalDate = By.xpath("//div[contains(@class,'day-item') and text()='" + arrivalDay + "']");
+            WebElement arrElem = wait.until(ExpectedConditions.elementToBeClickable(arrivalDate));
+            arrElem.click();
+        }
+        // else: handle invalid format if needed
     }
 
 
