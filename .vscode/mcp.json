@@ -1,11 +1,4 @@
 {
-  "inputs": [
-    {
-      "type": "promptString",
-      "id": "pg_url",
-  "description": "postgresql://root:root@host.docker.internal:5434/postgres_test_db"
-    }
-  ],
   "servers": {
     "postgres": {
       "command": "docker",
@@ -13,8 +6,10 @@
         "run",
         "-i",
         "--rm",
+        "--network",
+        "ai-qa-course_default",
         "mcp/postgres",
-        "${input:pg_url}"
+        "postgresql://root:root@postgres_test_db:5432/postgres_test_db"
       ]
     }
   }
