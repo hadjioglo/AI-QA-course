@@ -1,0 +1,26 @@
+Create a docker compose file to start a new postgres database with name 'postgres_test_db'
+user = root
+password = root
+port 5434
+
+start the database 
+import dump-postgres-202508231122.sql (run all sql queries from this file)
+
+adjust mcp.json file with database connection details listed above
+
+start the mcp postgres server 
+
+check the connection from terminal 
+
+list existing users from 'postgres_test_db'
+
+
+
+create me a promt that I will user later anytime whne I will have empty VScode project, with what we did before step by step
+
+Create docker compose file for starting postgres db with specified details
+start database using docker up
+adjust mcp.json or create if it is missing
+start the mcp server using command line
+check manually connection from terminal
+import dump-postgres-202508231122.sql

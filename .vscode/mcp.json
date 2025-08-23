@@ -1,0 +1,21 @@
+{
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "pg_url",
+  "description": "postgresql://root:root@host.docker.internal:5434/postgres_test_db"
+    }
+  ],
+  "servers": {
+    "postgres": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "mcp/postgres",
+        "${input:pg_url}"
+      ]
+    }
+  }
+}
