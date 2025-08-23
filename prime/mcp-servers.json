@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "sqlite": {
+      "command": "mcp-server-sqlite",
+      "args": ["--database", "C:/Users/alexandr.hadjioglo/DBeaverDatabaseDump/testDB"]
+    }
+  }
+}
+

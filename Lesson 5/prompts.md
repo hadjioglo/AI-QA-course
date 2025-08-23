@@ -3,7 +3,7 @@
 
 ## Prompt 1: Playwright MCP Server Flight Search
 
-**Task:**
+Task
 
 Use the Playwright MCP Server to navigate to [https://fdev.primesky.com](https://fdev.primesky.com). All browser automation must be routed through the MCP Server.
 
@@ -11,7 +11,7 @@ Use the Playwright MCP Server to navigate to [https://fdev.primesky.com](https:/
 
 Search for a flight from NYC to LON for next week (10-day period, 1 passenger) and validate that results for business, economy, and first class are displayed.
 
-**Steps:**
+Steps
 1. Select **New York** in the "From" field (type and select from dropdown).
 2. Select **London** in the "To" field (type and select from dropdown).
 3. Select dates for next week (10 days).
@@ -20,11 +20,11 @@ Search for a flight from NYC to LON for next week (10-day period, 1 passenger) a
 6. Take a screenshot of the results.
 7. Close the browser when complete.
 
-**Save report results in** `report2.md`
+Save report results in** `report2.md`
 
 ---
 
-## Prompt 2: Playwright MCP Server + Cypress Framework
+## Prompt 1: Playwright MCP Server + Cypress Framework
 
 **Task:**
 
@@ -67,7 +67,7 @@ Use the Playwright MCP Server to perform automated testing of [https://fdev.prim
 
 ---
 
-## Prompt 3: Playwright MCP Server + Java Selenium Maven Framework
+## Prompt 2: Playwright MCP Server + Java Selenium Maven Framework
 
 **Task:**
 

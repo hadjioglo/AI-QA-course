@@ -1,0 +1,46 @@
+
+-- Realistic users with varied dates and years
+INSERT INTO users (id, username, email, created_at) VALUES
+(1, 'alice.smith', 'alice.smith@example.com', '2021-01-15 09:00:00'),
+(2, 'bob.jones', 'bob.jones@example.com', '2022-03-22 14:30:00'),
+(3, 'carol.brown', 'carol.brown@example.com', '2023-07-10 18:45:00'),
+(4, 'dave.miller', 'dave.miller@example.com', '2024-11-05 08:20:00'),
+(5, 'eve.davis', 'eve.davis@example.com', '2025-02-28 12:10:00'),
+(6, 'frank.wilson', 'frank.wilson@example.com', '2021-06-17 16:00:00'),
+(7, 'grace.moore', 'grace.moore@example.com', '2022-09-03 21:15:00'),
+(8, 'henry.taylor', 'henry.taylor@example.com', '2023-12-25 07:30:00'),
+(9, 'irene.anderson', 'irene.anderson@example.com', '2024-04-14 11:05:00'),
+(10, 'jack.thomas', 'jack.thomas@example.com', '2025-08-23 19:55:00'),
+(11, 'karen.jackson', 'karen.jackson@example.com', '2021-02-10 10:10:00'),
+(12, 'leo.white', 'leo.white@example.com', '2022-05-19 13:20:00'),
+(13, 'mia.harris', 'mia.harris@example.com', '2023-08-27 15:40:00'),
+(14, 'nick.martin', 'nick.martin@example.com', '2024-10-31 17:50:00'),
+(15, 'olivia.lee', 'olivia.lee@example.com', '2025-01-01 20:00:00'),
+(16, 'paul.walker', 'paul.walker@example.com', '2021-03-05 09:15:00'),
+(17, 'quinn.hall', 'quinn.hall@example.com', '2022-07-12 14:25:00'),
+(18, 'rachel.young', 'rachel.young@example.com', '2023-09-18 18:35:00'),
+(19, 'sam.king', 'sam.king@example.com', '2024-12-02 08:45:00'),
+(20, 'tina.scott', 'tina.scott@example.com', '2025-03-16 12:55:00');
+
+-- Realistic permissions with varied dates and years
+INSERT INTO user_permissions (user_id, permission, granted_at) VALUES
+(1, 'read', '2021-02-15 09:10:00'), (1, 'admin', '2021-03-15 09:10:00'),
+(2, 'read', '2022-04-22 14:40:00'), (2, 'write', '2022-05-22 14:40:00'),
+(3, 'read', '2023-08-10 18:55:00'), (3, 'write', '2023-09-10 18:55:00'),
+(4, 'read', '2024-12-05 08:30:00'), (4, 'write', '2024-12-15 08:30:00'),
+(5, 'read', '2025-03-28 12:20:00'), (5, 'admin', '2025-04-28 12:20:00'),
+(6, 'read', '2021-07-17 16:10:00'), (6, 'write', '2021-08-17 16:10:00'),
+(7, 'read', '2022-10-03 21:25:00'), (7, 'write', '2022-11-03 21:25:00'),
+(8, 'read', '2023-01-25 07:40:00'), (8, 'admin', '2023-02-25 07:40:00'),
+(9, 'read', '2024-05-14 11:15:00'), (9, 'write', '2024-06-14 11:15:00'),
+(10, 'read', '2025-09-23 20:05:00'), (10, 'write', '2025-10-23 20:05:00'),
+(11, 'read', '2021-03-10 10:20:00'), (11, 'admin', '2021-04-10 10:20:00'),
+(12, 'read', '2022-06-19 13:30:00'), (12, 'write', '2022-07-19 13:30:00'),
+(13, 'read', '2023-09-27 15:50:00'), (13, 'write', '2023-10-27 15:50:00'),
+(14, 'read', '2024-10-31 17:00:00'), (14, 'write', '2024-12-31 17:00:00'),
+(15, 'read', '2025-02-01 20:10:00'), (15, 'admin', '2025-03-01 20:10:00'),
+(16, 'read', '2021-04-05 09:25:00'), (16, 'write', '2021-05-05 09:25:00'),
+(17, 'read', '2022-08-12 14:35:00'), (17, 'write', '2022-09-12 14:35:00'),
+(18, 'read', '2023-10-18 18:45:00'), (18, 'write', '2023-11-18 18:45:00'),
+(19, 'read', '2024-12-02 08:55:00'), (19, 'admin', '2025-01-02 08:55:00'),
+(20, 'read', '2025-04-16 13:05:00'), (20, 'write', '2025-05-16 13:05:00');
