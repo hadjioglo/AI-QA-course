@@ -44,4 +44,16 @@ docker exec -i postgres_test_db psql -U root -d postgres_test_db < dump-postgres
 
 ---
 
+# stop container
+Run:
+```bash
+docker stop
+```
+
+# remove container
+Run:
+```bash
+docker compose down
+```
+
 You can copy and reuse this prompt for future projects.

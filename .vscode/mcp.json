@@ -7,9 +7,9 @@
         "-i",
         "--rm",
         "--network",
-        "ai-qa-course_default",
+        "host",
         "mcp/postgres",
-        "postgresql://root:root@postgres_test_db:5432/postgres_test_db"
+        "postgresql://postgres:postgres@127.0.0.1:5432/dvdrental"
       ]
     }
   }
