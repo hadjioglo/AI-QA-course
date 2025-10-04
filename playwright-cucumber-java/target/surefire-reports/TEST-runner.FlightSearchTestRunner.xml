@@ -1,0 +1,2735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.FlightSearchTestRunner" time="96.118" tests="4" errors="2" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\alexandr.hadjioglo\IdeaProjects\AI-QA-course\playwright-cucumber-java\target\test-classes;C:\Users\alexandr.hadjioglo\IdeaProjects\AI-QA-course\playwright-cucumber-java\target\classes;C:\Users\alexandr.hadjioglo\.m2\repository\com\microsoft\playwright\playwright\1.44.0\playwright-1.44.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\alexandr.hadjioglo\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\com\microsoft\playwright\driver\1.44.0\driver-1.44.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\com\microsoft\playwright\driver-bundle\1.44.0\driver-bundle-1.44.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\alexandr.hadjioglo\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\alexandr.hadjioglo\.m2\repository\io\cucumber\cucumber-junit\7.15.0\cucumber-junit-7.15.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\alexandr.hadjioglo\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\alexandr.hadjioglo\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\alexandr.hadjioglo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\alexandr.hadjioglo\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\alexandr.hadjioglo\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\alexandr.hadjioglo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\alexandr.hadjioglo\.m2\repository\org\junit\platform\junit-platform-suite\1.10.2\junit-platform-suite-1.10.2.jar;C:\Users\alexandr.hadjioglo\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.2\junit-platform-suite-api-1.10.2.jar;C:\Users\alexandr.hadjioglo\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.2\junit-platform-suite-engine-1.10.2.jar;C:\Users\alexandr.hadjioglo\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.2\junit-platform-suite-commons-1.10.2.jar;C:\Users\alexandr.hadjioglo\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.2\junit-platform-launcher-1.10.2.jar;C:\Users\alexandr.hadjioglo\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.15.0\cucumber-junit-platform-engine-7.15.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;C:\Users\alexandr.hadjioglo\.m2\repository\org\junit\vintage\junit-vintage-engine\5.10.2\junit-vintage-engine-5.10.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="cucumber.junit-platform.naming-strategy" value="long"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Chisinau"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\alexandr.hadjioglo\AppData\Local\Temp\surefire7070433529799810469\surefirebooter-20251004115757672_3.jar C:\Users\alexandr.hadjioglo\AppData\Local\Temp\surefire7070433529799810469 2025-10-04T11-57-57_518-jvmRun1 surefire-20251004115757672_1tmp surefire_0-20251004115757672_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="FlightSearchTestRunner"/>
+    <property name="surefire.test.class.path" value="C:\Users\alexandr.hadjioglo\IdeaProjects\AI-QA-course\playwright-cucumber-java\target\test-classes;C:\Users\alexandr.hadjioglo\IdeaProjects\AI-QA-course\playwright-cucumber-java\target\classes;C:\Users\alexandr.hadjioglo\.m2\repository\com\microsoft\playwright\playwright\1.44.0\playwright-1.44.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\alexandr.hadjioglo\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\com\microsoft\playwright\driver\1.44.0\driver-1.44.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\com\microsoft\playwright\driver-bundle\1.44.0\driver-bundle-1.44.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\alexandr.hadjioglo\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\alexandr.hadjioglo\.m2\repository\io\cucumber\cucumber-junit\7.15.0\cucumber-junit-7.15.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\alexandr.hadjioglo\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\alexandr.hadjioglo\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\alexandr.hadjioglo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\alexandr.hadjioglo\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\alexandr.hadjioglo\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\alexandr.hadjioglo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\alexandr.hadjioglo\.m2\repository\org\junit\platform\junit-platform-suite\1.10.2\junit-platform-suite-1.10.2.jar;C:\Users\alexandr.hadjioglo\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.2\junit-platform-suite-api-1.10.2.jar;C:\Users\alexandr.hadjioglo\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.2\junit-platform-suite-engine-1.10.2.jar;C:\Users\alexandr.hadjioglo\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.2\junit-platform-suite-commons-1.10.2.jar;C:\Users\alexandr.hadjioglo\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.2\junit-platform-launcher-1.10.2.jar;C:\Users\alexandr.hadjioglo\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.15.0\cucumber-junit-platform-engine-7.15.0.jar;C:\Users\alexandr.hadjioglo\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;C:\Users\alexandr.hadjioglo\.m2\repository\org\junit\vintage\junit-vintage-engine\5.10.2\junit-vintage-engine-5.10.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\alexandr.hadjioglo"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.2.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\alexandr.hadjioglo\IdeaProjects\AI-QA-course\playwright-cucumber-java"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\alexandr.hadjioglo\AppData\Local\Temp\surefire7070433529799810469\surefirebooter-20251004115757672_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.2.1+1-1"/>
+    <property name="user.name" value="alexandr.hadjioglo"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\alexandr.hadjioglo\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\"/>
+    <property name="java.version" value="18.0.2.1"/>
+    <property name="user.dir" value="C:\Users\alexandr.hadjioglo\IdeaProjects\AI-QA-course\playwright-cucumber-java"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\alexandr.hadjioglo\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Google\Chrome\;C:\Program Files\PuTTY\;C:\Users\alexandr.hadjioglo\OneDrive - AMDARIS GROUP LIMITED\Documents\allure-2.34.0\bin;C:\Program Files\Maven\apache-maven-3.9.9\bin;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\PostgreSQL\17\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Users\alexandr.hadjioglo\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\alexandr.hadjioglo\AppData\Local\Programs\Python\Python313\;C:\Users\alexandr.hadjioglo\AppData\Local\Programs\Python\Launcher\;C:\Users\alexandr.hadjioglo\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Users\alexandr.hadjioglo\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.1\bin;C:\Users\alexandr.hadjioglo\OneDrive - AMDARIS GROUP LIMITED\Documents\allure-2.34.0\bin;C:\Users\alexandr.hadjioglo\AppData\Local\Programs\Ollama;c:\Users\alexandr.hadjioglo\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.2.1+1-1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="Search for flights with valid criteria" classname="PrimeSky User Interaction and Forms" time="40.456">
+    <error message="Error {&#10;  message=&apos;Timeout 30000ms exceeded.&#10;  name=&apos;TimeoutError&#10;  stack=&apos;TimeoutError: Timeout 30000ms exceeded.&#10;    at ProgressController.run (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\progress.js:78:26)&#10;    at Frame.fill (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\frames.js:1052:23)&#10;    at FrameDispatcher.fill (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\frameDispatcher.js:170:30)&#10;    at FrameDispatcher._handleCommand (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\dispatcher.js:94:40)&#10;    at DispatcherConnection.dispatch (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\dispatcher.js:361:39)&#10;}&#10;Call log:&#10;- waiting for locator(&quot;input[name*=&apos;adult&apos;]&quot;).first()&#10;-   locator resolved to &lt;input min=&quot;1&quot; max=&quot;99&quot; value=&quot;1&quot; type=&quot;number&quot; name=&quot;a…/&gt;&#10;-   fill(&quot;&quot;)&#10;- attempting fill action&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #1&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #2&#10;-   waiting 20ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #3&#10;-   waiting 100ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #4&#10;-   waiting 100ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #5&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #6&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #7&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #8&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #9&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #10&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #11&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #12&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #13&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #14&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #15&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #16&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #17&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #18&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #19&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #20&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #21&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #22&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #23&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #24&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #25&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #26&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #27&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #28&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #29&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #30&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #31&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #32&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #33&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #34&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #35&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #36&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #37&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #38&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #39&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #40&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #41&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #42&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #43&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #44&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #45&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #46&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #47&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #48&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #49&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #50&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #51&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #52&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #53&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #54&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #55&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #56&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #57&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #58&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #59&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #60&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #61&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #62&#10;-   waiting 500ms&#10;" type="com.microsoft.playwright.TimeoutError"><![CDATA[com.microsoft.playwright.TimeoutError: 
+Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\progress.js:78:26)
+    at Frame.fill (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\frames.js:1052:23)
+    at FrameDispatcher.fill (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\frameDispatcher.js:170:30)
+    at FrameDispatcher._handleCommand (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+- waiting for locator("input[name*='adult']").first()
+-   locator resolved to <input min="1" max="99" value="1" type="number" name="a…/>
+-   fill("")
+- attempting fill action
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #1
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #2
+-   waiting 20ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #3
+-   waiting 100ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #4
+-   waiting 100ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #5
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #6
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #7
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #8
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #9
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #10
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #11
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #12
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #13
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #14
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #15
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #16
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #17
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #18
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #19
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #20
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #21
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #22
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #23
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #24
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #25
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #26
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #27
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #28
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #29
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #30
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #31
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #32
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #33
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #34
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #35
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #36
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #37
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #38
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #39
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #40
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #41
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #42
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #43
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #44
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #45
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #46
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #47
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #48
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #49
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #50
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #51
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #52
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #53
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #54
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #55
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #56
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #57
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #58
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #59
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #60
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #61
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #62
+-   waiting 500ms
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.fillImpl(FrameImpl.java:335)
+	at com.microsoft.playwright.impl.FrameImpl.lambda$fill$14(FrameImpl.java:325)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.FrameImpl.fill(FrameImpl.java:325)
+	at com.microsoft.playwright.impl.LocatorImpl.fill(LocatorImpl.java:235)
+	at com.microsoft.playwright.impl.LocatorImpl.clear(LocatorImpl.java:152)
+	at com.microsoft.playwright.Locator.clear(Locator.java:2407)
+	at steps.PrimeSkyWebsiteSteps.setPassengerCount(PrimeSkyWebsiteSteps.java:1452)
+	at steps.PrimeSkyWebsiteSteps.i_fill_in_the_flight_search_form_with_valid_details(PrimeSkyWebsiteSteps.java:870)
+	at ✽.I fill in the flight search form with valid details(file:///C:/Users/alexandr.hadjioglo/IdeaProjects/AI-QA-course/playwright-cucumber-java/src/test/resources/features/user_interactions.feature:69)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\progress.js:78:26)
+    at Frame.fill (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\frames.js:1052:23)
+    at FrameDispatcher.fill (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\frameDispatcher.js:170:30)
+    at FrameDispatcher._handleCommand (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+- waiting for locator("input[name*='adult']").first()
+-   locator resolved to <input min="1" max="99" value="1" type="number" name="a…/>
+-   fill("")
+- attempting fill action
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #1
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #2
+-   waiting 20ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #3
+-   waiting 100ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #4
+-   waiting 100ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #5
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #6
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #7
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #8
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #9
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #10
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #11
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #12
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #13
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #14
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #15
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #16
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #17
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #18
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #19
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #20
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #21
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #22
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #23
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #24
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #25
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #26
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #27
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #28
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #29
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #30
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #31
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #32
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #33
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #34
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #35
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #36
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #37
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #38
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #39
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #40
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #41
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #42
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #43
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #44
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #45
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #46
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #47
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #48
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #49
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #50
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #51
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #52
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #53
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #54
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #55
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #56
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #57
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #58
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #59
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #60
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #61
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #62
+-   waiting 500ms
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.fillImpl(FrameImpl.java:335)
+	at com.microsoft.playwright.impl.FrameImpl.lambda$fill$14(FrameImpl.java:325)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.FrameImpl.fill(FrameImpl.java:325)
+	at com.microsoft.playwright.impl.LocatorImpl.fill(LocatorImpl.java:235)
+	at com.microsoft.playwright.impl.LocatorImpl.clear(LocatorImpl.java:152)
+	at com.microsoft.playwright.Locator.clear(Locator.java:2407)
+	at steps.PrimeSkyWebsiteSteps.setPassengerCount(PrimeSkyWebsiteSteps.java:1452)
+	at steps.PrimeSkyWebsiteSteps.i_fill_in_the_flight_search_form_with_valid_details(PrimeSkyWebsiteSteps.java:870)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:148)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:163)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:146)
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226)
+]]></error>
+    <system-out><![CDATA[
+@user-interactions @forms @flight-search @high-priority
+Scenario: Search for flights with valid criteria                                  # src/test/resources/features/user_interactions.feature:67
+  Given I am on the PrimeSky homepage                                             # steps.PrimeSkyWebsiteSteps.i_am_on_the_primesky_homepage()
+Navigated to: https://fdev.primesky.com/
+Page title: Home
+Found 16 elements matching flight search selector: a:has-text('Flights')
+Clicked on flight search link, new URL: https://fdev.primesky.com/region/europe
+Screenshot saved: target/flight-search-page.png
+  Given I am on the flight search page                                            # steps.PrimeSkyWebsiteSteps.i_am_on_the_flight_search_page()
+Attempting to fill origin field with: New York
+Found 2 elements with selector: input[name*='from']
+Successfully filled origin field with: New York
+Attempting to fill destination field with: Los Angeles
+Found 3 elements with selector: input[name*='to']
+Successfully filled destination field with: Los Angeles
+Attempting to set departure date to: 2025-12-15
+Found 1 elements with selector: input[name*='departure']
+Failed to set date with element 0: Error {
+  message='ReferenceError: arguments is not defined
+    at eval (eval at evaluate (:226:30), <anonymous>:1:1)
+    at eval (<anonymous>)
+    at UtilityScript.evaluate (<anonymous>:226:30)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+  name='Error
+  stack='Error: ReferenceError: arguments is not defined
+    at eval (eval at evaluate (:226:30), <anonymous>:1:1)
+    at eval (<anonymous>)
+    at UtilityScript.evaluate (<anonymous>:226:30)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+    at CRExecutionContext.evaluateWithArguments (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\chromium\crExecutionContext.js:92:33)
+    at async LongStandingScope._race (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\utils\manualPromise.js:96:14)
+    at async evaluateExpression (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\javascript.js:241:12)
+    at async ElementHandle.evaluateExpression (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\javascript.js:123:19)
+    at async ElementHandleDispatcher.evaluateExpression (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\jsHandleDispatcher.js:42:30)
+    at async LongStandingScope._race (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\utils\manualPromise.js:96:14)
+    at async ElementHandleDispatcher._handleCommand (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\dispatcher.js:96:14)
+    at async DispatcherConnection.dispatch (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\dispatcher.js:361:22)
+}
+Could not find or interact with departure date field - this may be expected if no flight search form exists
+Attempting to set return date to: 2025-12-22
+Could not find or interact with return date field - this may be expected if no flight search form exists
+  When I fill in the flight search form with valid details                        # steps.PrimeSkyWebsiteSteps.i_fill_in_the_flight_search_form_with_valid_details(io.cucumber.datatable.DataTable)
+    | Field          | Value       |
+    | Origin         | New York    |
+    | Destination    | Los Angeles |
+    | Departure Date | 2025-12-15  |
+    | Return Date    | 2025-12-22  |
+    | Passengers     | 2           |
+    | Trip Type      | Round Trip  |
+      com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\progress.js:78:26)
+    at Frame.fill (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\frames.js:1052:23)
+    at FrameDispatcher.fill (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\frameDispatcher.js:170:30)
+    at FrameDispatcher._handleCommand (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+- waiting for locator("input[name*='adult']").first()
+-   locator resolved to <input min="1" max="99" value="1" type="number" name="a…/>
+-   fill("")
+- attempting fill action
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #1
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #2
+-   waiting 20ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #3
+-   waiting 100ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #4
+-   waiting 100ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #5
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #6
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #7
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #8
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #9
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #10
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #11
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #12
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #13
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #14
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #15
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #16
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #17
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #18
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #19
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #20
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #21
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #22
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #23
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #24
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #25
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #26
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #27
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #28
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #29
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #30
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #31
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #32
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #33
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #34
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #35
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #36
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #37
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #38
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #39
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #40
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #41
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #42
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #43
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #44
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #45
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #46
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #47
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #48
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #49
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #50
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #51
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #52
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #53
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #54
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #55
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #56
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #57
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #58
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #59
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #60
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #61
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #62
+-   waiting 500ms
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.fillImpl(FrameImpl.java:335)
+	at com.microsoft.playwright.impl.FrameImpl.lambda$fill$14(FrameImpl.java:325)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.FrameImpl.fill(FrameImpl.java:325)
+	at com.microsoft.playwright.impl.LocatorImpl.fill(LocatorImpl.java:235)
+	at com.microsoft.playwright.impl.LocatorImpl.clear(LocatorImpl.java:152)
+	at com.microsoft.playwright.Locator.clear(Locator.java:2407)
+	at steps.PrimeSkyWebsiteSteps.setPassengerCount(PrimeSkyWebsiteSteps.java:1452)
+	at steps.PrimeSkyWebsiteSteps.i_fill_in_the_flight_search_form_with_valid_details(PrimeSkyWebsiteSteps.java:870)
+	at ✽.I fill in the flight search form with valid details(file:///C:/Users/alexandr.hadjioglo/IdeaProjects/AI-QA-course/playwright-cucumber-java/src/test/resources/features/user_interactions.feature:69)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\progress.js:78:26)
+    at Frame.fill (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\frames.js:1052:23)
+    at FrameDispatcher.fill (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\frameDispatcher.js:170:30)
+    at FrameDispatcher._handleCommand (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+- waiting for locator("input[name*='adult']").first()
+-   locator resolved to <input min="1" max="99" value="1" type="number" name="a…/>
+-   fill("")
+- attempting fill action
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #1
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #2
+-   waiting 20ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #3
+-   waiting 100ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #4
+-   waiting 100ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #5
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #6
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #7
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #8
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #9
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #10
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #11
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #12
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #13
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #14
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #15
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #16
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #17
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #18
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #19
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #20
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #21
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #22
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #23
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #24
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #25
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #26
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #27
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #28
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #29
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #30
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #31
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #32
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #33
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #34
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #35
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #36
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #37
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #38
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #39
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #40
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #41
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #42
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #43
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #44
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #45
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #46
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #47
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #48
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #49
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #50
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #51
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #52
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #53
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #54
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #55
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #56
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #57
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #58
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #59
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #60
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #61
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #62
+-   waiting 500ms
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.fillImpl(FrameImpl.java:335)
+	at com.microsoft.playwright.impl.FrameImpl.lambda$fill$14(FrameImpl.java:325)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.FrameImpl.fill(FrameImpl.java:325)
+	at com.microsoft.playwright.impl.LocatorImpl.fill(LocatorImpl.java:235)
+	at com.microsoft.playwright.impl.LocatorImpl.clear(LocatorImpl.java:152)
+	at com.microsoft.playwright.Locator.clear(Locator.java:2407)
+	at steps.PrimeSkyWebsiteSteps.setPassengerCount(PrimeSkyWebsiteSteps.java:1452)
+	at steps.PrimeSkyWebsiteSteps.i_fill_in_the_flight_search_form_with_valid_details(PrimeSkyWebsiteSteps.java:870)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:148)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:163)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:146)
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:42)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:72)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:50)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+  And I submit the flight search                                                  # steps.PrimeSkyWebsiteSteps.i_submit_the_flight_search()
+  Then I should see a list of available flights                                   # steps.PrimeSkyWebsiteSteps.i_should_see_a_list_of_available_flights()
+  And the search results should contain flights from "New York" to "Los Angeles"  # steps.PrimeSkyWebsiteSteps.the_search_results_should_contain_flights_from_to(java.lang.String,java.lang.String)
+  And the results should show the correct departure date                          # steps.PrimeSkyWebsiteSteps.the_results_should_show_the_correct_departure_date()
+  And the results should display flight details like price, duration, and airline # steps.PrimeSkyWebsiteSteps.the_results_should_display_flight_details()
+]]></system-out>
+  </testcase>
+  <testcase name="Search for one-way flights" classname="PrimeSky User Interaction and Forms" time="35.685">
+    <error message="Error {&#10;  message=&apos;Timeout 30000ms exceeded.&#10;  name=&apos;TimeoutError&#10;  stack=&apos;TimeoutError: Timeout 30000ms exceeded.&#10;    at ProgressController.run (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\progress.js:78:26)&#10;    at Frame.fill (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\frames.js:1052:23)&#10;    at FrameDispatcher.fill (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\frameDispatcher.js:170:30)&#10;    at FrameDispatcher._handleCommand (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\dispatcher.js:94:40)&#10;    at DispatcherConnection.dispatch (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\dispatcher.js:361:39)&#10;}&#10;Call log:&#10;- waiting for locator(&quot;input[name*=&apos;adult&apos;]&quot;).first()&#10;-   locator resolved to &lt;input min=&quot;1&quot; max=&quot;99&quot; value=&quot;1&quot; type=&quot;number&quot; name=&quot;a…/&gt;&#10;-   fill(&quot;&quot;)&#10;- attempting fill action&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #1&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #2&#10;-   waiting 20ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #3&#10;-   waiting 100ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #4&#10;-   waiting 100ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #5&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #6&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #7&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #8&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #9&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #10&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #11&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #12&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #13&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #14&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #15&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #16&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #17&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #18&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #19&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #20&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #21&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #22&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #23&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #24&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #25&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #26&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #27&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #28&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #29&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #30&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #31&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #32&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #33&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #34&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #35&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #36&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #37&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #38&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #39&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #40&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #41&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #42&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #43&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #44&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #45&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #46&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #47&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #48&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #49&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #50&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #51&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #52&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #53&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #54&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #55&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #56&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #57&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #58&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #59&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #60&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #61&#10;-   waiting 500ms&#10;-   waiting for element to be visible, enabled and editable&#10;-   element is not visible&#10;- retrying fill action, attempt #62&#10;-   waiting 500ms&#10;" type="com.microsoft.playwright.TimeoutError"><![CDATA[com.microsoft.playwright.TimeoutError: 
+Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\progress.js:78:26)
+    at Frame.fill (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\frames.js:1052:23)
+    at FrameDispatcher.fill (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\frameDispatcher.js:170:30)
+    at FrameDispatcher._handleCommand (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+- waiting for locator("input[name*='adult']").first()
+-   locator resolved to <input min="1" max="99" value="1" type="number" name="a…/>
+-   fill("")
+- attempting fill action
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #1
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #2
+-   waiting 20ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #3
+-   waiting 100ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #4
+-   waiting 100ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #5
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #6
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #7
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #8
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #9
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #10
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #11
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #12
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #13
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #14
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #15
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #16
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #17
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #18
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #19
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #20
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #21
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #22
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #23
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #24
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #25
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #26
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #27
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #28
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #29
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #30
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #31
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #32
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #33
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #34
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #35
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #36
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #37
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #38
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #39
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #40
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #41
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #42
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #43
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #44
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #45
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #46
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #47
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #48
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #49
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #50
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #51
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #52
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #53
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #54
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #55
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #56
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #57
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #58
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #59
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #60
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #61
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #62
+-   waiting 500ms
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.fillImpl(FrameImpl.java:335)
+	at com.microsoft.playwright.impl.FrameImpl.lambda$fill$14(FrameImpl.java:325)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.FrameImpl.fill(FrameImpl.java:325)
+	at com.microsoft.playwright.impl.LocatorImpl.fill(LocatorImpl.java:235)
+	at com.microsoft.playwright.impl.LocatorImpl.clear(LocatorImpl.java:152)
+	at com.microsoft.playwright.Locator.clear(Locator.java:2407)
+	at steps.PrimeSkyWebsiteSteps.setPassengerCount(PrimeSkyWebsiteSteps.java:1452)
+	at steps.PrimeSkyWebsiteSteps.i_fill_in_the_one_way_flight_search_form(PrimeSkyWebsiteSteps.java:1103)
+	at ✽.I fill in the one-way flight search form(file:///C:/Users/alexandr.hadjioglo/IdeaProjects/AI-QA-course/playwright-cucumber-java/src/test/resources/features/user_interactions.feature:87)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\progress.js:78:26)
+    at Frame.fill (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\frames.js:1052:23)
+    at FrameDispatcher.fill (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\frameDispatcher.js:170:30)
+    at FrameDispatcher._handleCommand (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+- waiting for locator("input[name*='adult']").first()
+-   locator resolved to <input min="1" max="99" value="1" type="number" name="a…/>
+-   fill("")
+- attempting fill action
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #1
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #2
+-   waiting 20ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #3
+-   waiting 100ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #4
+-   waiting 100ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #5
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #6
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #7
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #8
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #9
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #10
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #11
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #12
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #13
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #14
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #15
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #16
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #17
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #18
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #19
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #20
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #21
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #22
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #23
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #24
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #25
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #26
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #27
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #28
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #29
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #30
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #31
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #32
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #33
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #34
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #35
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #36
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #37
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #38
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #39
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #40
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #41
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #42
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #43
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #44
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #45
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #46
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #47
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #48
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #49
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #50
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #51
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #52
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #53
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #54
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #55
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #56
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #57
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #58
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #59
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #60
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #61
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #62
+-   waiting 500ms
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.fillImpl(FrameImpl.java:335)
+	at com.microsoft.playwright.impl.FrameImpl.lambda$fill$14(FrameImpl.java:325)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.FrameImpl.fill(FrameImpl.java:325)
+	at com.microsoft.playwright.impl.LocatorImpl.fill(LocatorImpl.java:235)
+	at com.microsoft.playwright.impl.LocatorImpl.clear(LocatorImpl.java:152)
+	at com.microsoft.playwright.Locator.clear(Locator.java:2407)
+	at steps.PrimeSkyWebsiteSteps.setPassengerCount(PrimeSkyWebsiteSteps.java:1452)
+	at steps.PrimeSkyWebsiteSteps.i_fill_in_the_one_way_flight_search_form(PrimeSkyWebsiteSteps.java:1103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:148)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:163)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:146)
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226)
+]]></error>
+    <system-out><![CDATA[
+@user-interactions @forms @flight-search @medium-priority
+Scenario: Search for one-way flights                                    # src/test/resources/features/user_interactions.feature:84
+  Given I am on the PrimeSky homepage                                   # steps.PrimeSkyWebsiteSteps.i_am_on_the_primesky_homepage()
+Navigated to: https://fdev.primesky.com/
+Page title: Home
+Found 16 elements matching flight search selector: a:has-text('Flights')
+Clicked on flight search link, new URL: https://fdev.primesky.com/region/europe
+Screenshot saved: target/flight-search-page.png
+  Given I am on the flight search page                                  # steps.PrimeSkyWebsiteSteps.i_am_on_the_flight_search_page()
+  When I select "One Way" trip type                                     # steps.PrimeSkyWebsiteSteps.i_select_trip_type(java.lang.String)
+Attempting to fill origin field with: Chicago
+Found 2 elements with selector: input[name*='from']
+Successfully filled origin field with: Chicago
+Attempting to fill destination field with: Miami
+Found 3 elements with selector: input[name*='to']
+Successfully filled destination field with: Miami
+Attempting to set departure date to: 2025-11-20
+Found 1 elements with selector: input[name*='departure']
+Failed to set date with element 0: Error {
+  message='ReferenceError: arguments is not defined
+    at eval (eval at evaluate (:226:30), <anonymous>:1:1)
+    at eval (<anonymous>)
+    at UtilityScript.evaluate (<anonymous>:226:30)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+  name='Error
+  stack='Error: ReferenceError: arguments is not defined
+    at eval (eval at evaluate (:226:30), <anonymous>:1:1)
+    at eval (<anonymous>)
+    at UtilityScript.evaluate (<anonymous>:226:30)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+    at CRExecutionContext.evaluateWithArguments (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\chromium\crExecutionContext.js:92:33)
+    at async LongStandingScope._race (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\utils\manualPromise.js:96:14)
+    at async evaluateExpression (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\javascript.js:241:12)
+    at async ElementHandle.evaluateExpression (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\javascript.js:123:19)
+    at async ElementHandleDispatcher.evaluateExpression (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\jsHandleDispatcher.js:42:30)
+    at async LongStandingScope._race (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\utils\manualPromise.js:96:14)
+    at async ElementHandleDispatcher._handleCommand (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\dispatcher.js:96:14)
+    at async DispatcherConnection.dispatch (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\dispatcher.js:361:22)
+}
+Could not find or interact with departure date field - this may be expected if no flight search form exists
+  And I fill in the one-way flight search form                          # steps.PrimeSkyWebsiteSteps.i_fill_in_the_one_way_flight_search_form(io.cucumber.datatable.DataTable)
+    | Field          | Value      |
+    | Origin         | Chicago    |
+    | Destination    | Miami      |
+    | Departure Date | 2025-11-20 |
+    | Passengers     | 1          |
+      com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\progress.js:78:26)
+    at Frame.fill (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\frames.js:1052:23)
+    at FrameDispatcher.fill (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\frameDispatcher.js:170:30)
+    at FrameDispatcher._handleCommand (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+- waiting for locator("input[name*='adult']").first()
+-   locator resolved to <input min="1" max="99" value="1" type="number" name="a…/>
+-   fill("")
+- attempting fill action
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #1
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #2
+-   waiting 20ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #3
+-   waiting 100ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #4
+-   waiting 100ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #5
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #6
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #7
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #8
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #9
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #10
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #11
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #12
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #13
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #14
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #15
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #16
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #17
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #18
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #19
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #20
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #21
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #22
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #23
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #24
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #25
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #26
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #27
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #28
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #29
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #30
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #31
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #32
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #33
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #34
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #35
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #36
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #37
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #38
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #39
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #40
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #41
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #42
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #43
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #44
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #45
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #46
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #47
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #48
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #49
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #50
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #51
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #52
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #53
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #54
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #55
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #56
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #57
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #58
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #59
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #60
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #61
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #62
+-   waiting 500ms
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.fillImpl(FrameImpl.java:335)
+	at com.microsoft.playwright.impl.FrameImpl.lambda$fill$14(FrameImpl.java:325)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.FrameImpl.fill(FrameImpl.java:325)
+	at com.microsoft.playwright.impl.LocatorImpl.fill(LocatorImpl.java:235)
+	at com.microsoft.playwright.impl.LocatorImpl.clear(LocatorImpl.java:152)
+	at com.microsoft.playwright.Locator.clear(Locator.java:2407)
+	at steps.PrimeSkyWebsiteSteps.setPassengerCount(PrimeSkyWebsiteSteps.java:1452)
+	at steps.PrimeSkyWebsiteSteps.i_fill_in_the_one_way_flight_search_form(PrimeSkyWebsiteSteps.java:1103)
+	at ✽.I fill in the one-way flight search form(file:///C:/Users/alexandr.hadjioglo/IdeaProjects/AI-QA-course/playwright-cucumber-java/src/test/resources/features/user_interactions.feature:87)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\progress.js:78:26)
+    at Frame.fill (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\frames.js:1052:23)
+    at FrameDispatcher.fill (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\frameDispatcher.js:170:30)
+    at FrameDispatcher._handleCommand (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+- waiting for locator("input[name*='adult']").first()
+-   locator resolved to <input min="1" max="99" value="1" type="number" name="a…/>
+-   fill("")
+- attempting fill action
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #1
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #2
+-   waiting 20ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #3
+-   waiting 100ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #4
+-   waiting 100ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #5
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #6
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #7
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #8
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #9
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #10
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #11
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #12
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #13
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #14
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #15
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #16
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #17
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #18
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #19
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #20
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #21
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #22
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #23
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #24
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #25
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #26
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #27
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #28
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #29
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #30
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #31
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #32
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #33
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #34
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #35
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #36
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #37
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #38
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #39
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #40
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #41
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #42
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #43
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #44
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #45
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #46
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #47
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #48
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #49
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #50
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #51
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #52
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #53
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #54
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #55
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #56
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #57
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #58
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #59
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #60
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #61
+-   waiting 500ms
+-   waiting for element to be visible, enabled and editable
+-   element is not visible
+- retrying fill action, attempt #62
+-   waiting 500ms
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+	at com.microsoft.playwright.impl.FrameImpl.fillImpl(FrameImpl.java:335)
+	at com.microsoft.playwright.impl.FrameImpl.lambda$fill$14(FrameImpl.java:325)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.FrameImpl.fill(FrameImpl.java:325)
+	at com.microsoft.playwright.impl.LocatorImpl.fill(LocatorImpl.java:235)
+	at com.microsoft.playwright.impl.LocatorImpl.clear(LocatorImpl.java:152)
+	at com.microsoft.playwright.Locator.clear(Locator.java:2407)
+	at steps.PrimeSkyWebsiteSteps.setPassengerCount(PrimeSkyWebsiteSteps.java:1452)
+	at steps.PrimeSkyWebsiteSteps.i_fill_in_the_one_way_flight_search_form(PrimeSkyWebsiteSteps.java:1103)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:148)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:163)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:146)
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:42)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:72)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:50)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+  And I submit the flight search                                        # steps.PrimeSkyWebsiteSteps.i_submit_the_flight_search()
+  Then I should see a list of available one-way flights                 # steps.PrimeSkyWebsiteSteps.i_should_see_a_list_of_available_one_way_flights()
+  And the search results should not show return flight options          # steps.PrimeSkyWebsiteSteps.the_search_results_should_not_show_return_flight_options()
+  And each flight result should display departure time and arrival time # steps.PrimeSkyWebsiteSteps.each_flight_result_should_display_departure_and_arrival_time()
+]]></system-out>
+  </testcase>
+  <testcase name="Validate flight search form fields" classname="PrimeSky User Interaction and Forms" time="8.107">
+    <system-out><![CDATA[
+@user-interactions @forms @flight-search @validation @medium-priority
+Scenario: Validate flight search form fields                           # src/test/resources/features/user_interactions.feature:99
+  Given I am on the PrimeSky homepage                                  # steps.PrimeSkyWebsiteSteps.i_am_on_the_primesky_homepage()
+Navigated to: https://fdev.primesky.com/
+Page title: Home
+Found 16 elements matching flight search selector: a:has-text('Flights')
+Clicked on flight search link, new URL: https://fdev.primesky.com/region/europe
+Screenshot saved: target/flight-search-page.png
+  Given I am on the flight search page                                 # steps.PrimeSkyWebsiteSteps.i_am_on_the_flight_search_page()
+Attempting to submit flight search...
+Found 11 buttons with selector: button
+Clicking button: GET FREE QUOTES
+Flight search submitted successfully
+Current URL after search: https://fdev.primesky.com/region/europe
+  When I submit the flight search form without filling required fields # steps.PrimeSkyWebsiteSteps.i_submit_the_flight_search_form_without_filling_required_fields()
+Validation errors found with selector: .error
+Error-related text found in content
+Validation errors displayed: true
+  Then I should see validation errors for required fields              # steps.PrimeSkyWebsiteSteps.i_should_see_validation_errors_for_required_fields()
+Search execution prevented: false
+  And the search should not be executed                                # steps.PrimeSkyWebsiteSteps.the_search_should_not_be_executed()
+Attempting to set departure date to: 2023-01-01
+Found 1 elements with selector: input[name*='departure']
+Failed to set date with element 0: Error {
+  message='ReferenceError: arguments is not defined
+    at eval (eval at evaluate (:226:30), <anonymous>:1:1)
+    at eval (<anonymous>)
+    at UtilityScript.evaluate (<anonymous>:226:30)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+  name='Error
+  stack='Error: ReferenceError: arguments is not defined
+    at eval (eval at evaluate (:226:30), <anonymous>:1:1)
+    at eval (<anonymous>)
+    at UtilityScript.evaluate (<anonymous>:226:30)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+    at CRExecutionContext.evaluateWithArguments (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\chromium\crExecutionContext.js:92:33)
+    at async LongStandingScope._race (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\utils\manualPromise.js:96:14)
+    at async evaluateExpression (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\javascript.js:241:12)
+    at async ElementHandle.evaluateExpression (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\javascript.js:123:19)
+    at async ElementHandleDispatcher.evaluateExpression (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\jsHandleDispatcher.js:42:30)
+    at async LongStandingScope._race (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\utils\manualPromise.js:96:14)
+    at async ElementHandleDispatcher._handleCommand (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\dispatcher.js:96:14)
+    at async DispatcherConnection.dispatch (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\dispatcher.js:361:22)
+}
+Could not find or interact with departure date field - this may be expected if no flight search form exists
+  When I enter an invalid departure date in the past                   # steps.PrimeSkyWebsiteSteps.i_enter_an_invalid_departure_date_in_the_past()
+Date validation error found: false
+  Then I should see an error message about invalid date                # steps.PrimeSkyWebsiteSteps.i_should_see_an_error_message_about_invalid_date()
+Attempting to fill origin field with: New York
+Found 2 elements with selector: input[name*='from']
+Successfully filled origin field with: New York
+Attempting to fill destination field with: New York
+Found 3 elements with selector: input[name*='to']
+Successfully filled destination field with: New York
+  When I enter the same city for origin and destination                # steps.PrimeSkyWebsiteSteps.i_enter_the_same_city_for_origin_and_destination()
+Location validation error found: false
+  Then I should see an error message about identical locations         # steps.PrimeSkyWebsiteSteps.i_should_see_an_error_message_about_identical_locations()
+]]></system-out>
+  </testcase>
+  <testcase name="Apply filters to flight search results" classname="PrimeSky User Interaction and Forms" time="11.635">
+    <system-out><![CDATA[
+@user-interactions @forms @flight-search @filters @low-priority
+Scenario: Apply filters to flight search results                    # src/test/resources/features/user_interactions.feature:110
+  Given I am on the PrimeSky homepage                               # steps.PrimeSkyWebsiteSteps.i_am_on_the_primesky_homepage()
+Navigated to: https://fdev.primesky.com/
+Page title: Home
+Found 16 elements matching flight search selector: a:has-text('Flights')
+Clicked on flight search link, new URL: https://fdev.primesky.com/region/europe
+Screenshot saved: target/flight-search-page.png
+  Given I am on the flight search page                              # steps.PrimeSkyWebsiteSteps.i_am_on_the_flight_search_page()
+Navigated to: https://fdev.primesky.com/
+Page title: Home
+Found 16 elements matching flight search selector: a:has-text('Flights')
+Clicked on flight search link, new URL: https://fdev.primesky.com/region/europe
+Screenshot saved: target/flight-search-page.png
+Attempting to fill origin field with: New York
+Found 2 elements with selector: input[name*='from']
+Successfully filled origin field with: New York
+Attempting to fill destination field with: Los Angeles
+Found 3 elements with selector: input[name*='to']
+Successfully filled destination field with: Los Angeles
+Attempting to set departure date to: 2025-12-15
+Found 1 elements with selector: input[name*='departure']
+Failed to set date with element 0: Error {
+  message='ReferenceError: arguments is not defined
+    at eval (eval at evaluate (:226:30), <anonymous>:1:1)
+    at eval (<anonymous>)
+    at UtilityScript.evaluate (<anonymous>:226:30)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+  name='Error
+  stack='Error: ReferenceError: arguments is not defined
+    at eval (eval at evaluate (:226:30), <anonymous>:1:1)
+    at eval (<anonymous>)
+    at UtilityScript.evaluate (<anonymous>:226:30)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+    at CRExecutionContext.evaluateWithArguments (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\chromium\crExecutionContext.js:92:33)
+    at async LongStandingScope._race (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\utils\manualPromise.js:96:14)
+    at async evaluateExpression (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\javascript.js:241:12)
+    at async ElementHandle.evaluateExpression (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\javascript.js:123:19)
+    at async ElementHandleDispatcher.evaluateExpression (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\jsHandleDispatcher.js:42:30)
+    at async LongStandingScope._race (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\utils\manualPromise.js:96:14)
+    at async ElementHandleDispatcher._handleCommand (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\dispatcher.js:96:14)
+    at async DispatcherConnection.dispatch (C:\Users\ALEXAN~1.HAD\AppData\Local\Temp\playwright-java-11653427202627077617\package\lib\server\dispatchers\dispatcher.js:361:22)
+}
+Could not find or interact with departure date field - this may be expected if no flight search form exists
+Attempting to submit flight search...
+Found 11 buttons with selector: button
+Clicking button: GET FREE QUOTES
+Flight search submitted successfully
+Current URL after search: https://fdev.primesky.com/region/europe
+Checking for flight search results...
+Found 7 elements with selector: ul
+Flight search results validation passed
+  And I have performed a flight search with results displayed       # steps.PrimeSkyWebsiteSteps.i_have_performed_a_flight_search_with_results_displayed()
+Applying filter - Filter Type: Value
+Applying filter - Price Range: $200-$500
+Applying filter - Departure Time: Morning
+Applying filter - Airline: American
+Applied filters: {Filter Type=Value, Price Range=$200-$500, Departure Time=Morning, Airline=American}
+  When I apply filters to the search results                        # steps.PrimeSkyWebsiteSteps.i_apply_filters_to_the_search_results(io.cucumber.datatable.DataTable)
+    | Filter Type    | Value     |
+    | Price Range    | $200-$500 |
+    | Departure Time | Morning   |
+    | Airline        | American  |
+Filtered results present: false
+  Then the results should be filtered accordingly                   # steps.PrimeSkyWebsiteSteps.the_results_should_be_filtered_accordingly()
+Verifying filter criteria matching...
+  And only flights matching the filter criteria should be displayed # steps.PrimeSkyWebsiteSteps.only_flights_matching_the_filter_criteria_should_be_displayed()
+Filter count indicator found: false
+  And the filter count should be updated                            # steps.PrimeSkyWebsiteSteps.the_filter_count_should_be_updated()
+]]></system-out>
+  </testcase>
+</testsuite>
