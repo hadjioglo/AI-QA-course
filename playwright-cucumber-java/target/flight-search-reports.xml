@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="42.482" tests="4" skipped="0" failures="0" errors="0">
+<testcase classname="PrimeSky User Interaction and Forms" name="Search for flights with valid criteria" time="12.723">
+<system-out><![CDATA[
+Given I am on the PrimeSky homepage.........................................passed
+Given I am on the flight search page........................................passed
+When I fill in the flight search form with valid details....................passed
+And I submit the flight search..............................................passed
+Then I should see a list of available flights...............................passed
+And the search results should contain flights from "New York" to "Los Angeles".passed
+And the results should show the correct departure date......................passed
+And the results should display flight details like price, duration, and airline.passed
+]]></system-out>
+</testcase>
+<testcase classname="PrimeSky User Interaction and Forms" name="Search for one-way flights" time="8.135">
+<system-out><![CDATA[
+Given I am on the PrimeSky homepage.........................................passed
+Given I am on the flight search page........................................passed
+When I select "One Way" trip type...........................................passed
+And I fill in the one-way flight search form................................passed
+And I submit the flight search..............................................passed
+Then I should see a list of available one-way flights.......................passed
+And the search results should not show return flight options................passed
+And each flight result should display departure time and arrival time.......passed
+]]></system-out>
+</testcase>
+<testcase classname="PrimeSky User Interaction and Forms" name="Validate flight search form fields" time="8.448">
+<system-out><![CDATA[
+Given I am on the PrimeSky homepage.........................................passed
+Given I am on the flight search page........................................passed
+When I submit the flight search form without filling required fields........passed
+Then I should see validation errors for required fields.....................passed
+And the search should not be executed.......................................passed
+When I enter an invalid departure date in the past..........................passed
+Then I should see an error message about invalid date.......................passed
+When I enter the same city for origin and destination.......................passed
+Then I should see an error message about identical locations................passed
+]]></system-out>
+</testcase>
+<testcase classname="PrimeSky User Interaction and Forms" name="Apply filters to flight search results" time="12.975">
+<system-out><![CDATA[
+Given I am on the PrimeSky homepage.........................................passed
+Given I am on the flight search page........................................passed
+And I have performed a flight search with results displayed.................passed
+When I apply filters to the search results..................................passed
+Then the results should be filtered accordingly.............................passed
+And only flights matching the filter criteria should be displayed...........passed
+And the filter count should be updated......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
